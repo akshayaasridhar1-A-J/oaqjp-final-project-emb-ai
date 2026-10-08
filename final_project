@@ -1,5 +1,5 @@
 cd final_project
-touch emotion_detection.py
+import emotion_detection.py
 import requests
 
 
