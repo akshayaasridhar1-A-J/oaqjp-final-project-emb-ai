@@ -1,0 +1,23 @@
+test_blank_input_dominant_none (test_emotion_detection.TestEmotionDetector)
+Blank input returns dominant_emotion as None. ... ok
+test_blank_input_scores_none (test_emotion_detection.TestEmotionDetector)
+Blank input returns all scores as None. ... ok
+test_emotion_anger (test_emotion_detection.TestEmotionDetector)
+Anger text returns anger as dominant emotion. ... ok
+test_emotion_disgust (test_emotion_detection.TestEmotionDetector)
+Disgust text returns disgust as dominant emotion. ... ok
+test_emotion_fear (test_emotion_detection.TestEmotionDetector)
+Fear text returns fear as dominant emotion. ... ok
+test_emotion_joy (test_emotion_detection.TestEmotionDetector)
+Joy text returns joy as dominant emotion. ... ok
+test_emotion_sadness (test_emotion_detection.TestEmotionDetector)
+Sadness text returns sadness as dominant emotion. ... ok
+test_format_null_output (test_emotion_detection.TestEmotionDetector)
+format_emotion_output on null returns error string. ... ok
+test_format_valid_output (test_emotion_detection.TestEmotionDetector)
+format_emotion_output returns correct string format. ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.754s
+
+OK
